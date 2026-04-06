@@ -39,7 +39,7 @@ def main(page: ft.Page):
     # Função Jogar Novamente
     def jogar_novamente(e):
         btn_jogar_novamente.visible = False
-        mensagem.value = "Quem criou a técmoca chamada 'Hiraishin'?"
+        mensagem.value = "Quem criou a técnica chamada 'Hiraishin'?"
 
         container_minato.image.opacity = 1.0
         container_minato.on_click = jogar
