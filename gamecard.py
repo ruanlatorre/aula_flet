@@ -23,8 +23,7 @@ def main(page: ft.Page):
             ),
         ],
         alignment=ft.MainAxisAlignment.CENTER,
-    )
-
+    ) 
     # Status: Barra de HP, MP e XP
     status_bar = ft.Row(
         controls=[
